@@ -13,7 +13,11 @@ public class FechaCapicua {
 		
 		teclado.close();
 	}
-
+/**
+ * metodo que compprueba si la fecha es capicua
+ * @param fecha
+ * @return
+ */
 	public static boolean esCapicua(String fecha) {
 		System.out.print("La fecha es "+fecha+". ");
 		
